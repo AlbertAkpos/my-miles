@@ -19,6 +19,8 @@
             android:background="?attr/colorPrimary"
             app:layout_constraintStart_toStartOf="parent"
             app:title="Home"
+            android:theme="@style/Toolbar_theme"
+            app:titleTextColor="@color/primaryTextColor"
             app:layout_constraintTop_toTopOf="parent" />
 
         <fragment

@@ -34,8 +34,6 @@ class MainActivity : AppCompatActivity() {
         NavigationUI.setupActionBarWithNavController(this, navController)
         appBarConfiguration = AppBarConfiguration(navController.graph)
 
-        val viewModel =
-            ViewModelProvider(this, MainViewModel.Factory()).get(MainViewModel::class.java)
     }
     override fun onSupportNavigateUp(): Boolean {
         return navController.navigateUp(appBarConfiguration) ||
